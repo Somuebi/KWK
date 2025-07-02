@@ -1,0 +1,55 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: 'Verdana';
+  background: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #6c63ff;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 8px;
+  width: 300px;
+  height: auto;
+  align-items: right;
+}
+
+.fun-facts ul {
+  list-style: circle;
+  padding-left: 1.5rem;
+}
+
+a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+}
